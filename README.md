@@ -1,6 +1,9 @@
 # Terraform-WordPress
 Deploy a basic WordPress website on Amazon EC2 using Terraform.
 
+### Introduction
+Terraform is an open-source infrastructure as code (IaC) tool developed by HashiCorp. It enables users to define and provision infrastructure in a declarative configuration language. With Terraform, you can describe the components of your infrastructure—such as servers, databases, networks, and other resources—using a configuration file, and then Terraform will manage the creation, modification, and deletion of these resources.
+
 ## Steps
 ### Create EC2 Instance on AWS:
 
@@ -34,32 +37,23 @@ terraform init
 
 ### Validate Terraform Configuration:
 
-Ensure the correctness of your main.tf file:
-
-terraform validate
+Ensure the correctness of your main.tf file: "terraform validate"
 
 ### Review Terraform Plan:
 
-Check the execution plan for your infrastructure:
-
-terraform plan
+Check the execution plan for your infrastructure: "terraform plan"
 
 ### Apply Terraform Configuration:
 
-Apply the configuration to create your WordPress setup:
-
-terraform apply
+Apply the configuration to create your WordPress setup: "terraform apply"
 
 ### Check WordPress Container:
 
-After successful completion, inspect the running WordPress container:
-
-docker ps
+After successful completion, inspect the running WordPress container: "docker ps"
 
 ### Access WordPress Site:
 
 Retrieve the public IP address from the terminal where the EC2 instance is connected.
-Access the WordPress site using the public IP and port 80:
+Access the WordPress site using the public IP and port 80: https://<Your_Public_IP>:80
 
-https://<Your_Public_IP>:80
 Feel free to explore and enhance your WordPress deployment!
