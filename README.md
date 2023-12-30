@@ -33,9 +33,7 @@ Inside the directory, create a file named main.tf with the content provided in t
 
 ### Initialize Terraform:
 
-Run the command:
-
-terraform init
+Run the command: "terraform init"
 
 ### Validate Terraform Configuration:
 
