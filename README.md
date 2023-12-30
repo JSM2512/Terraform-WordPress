@@ -17,9 +17,11 @@ Establish a connection to your EC2 Instance.
 Follow the installation guide here to install Terraform.
 ### Install Docker:
 
-### Execute the following commands:
-sudo apt-get install docker.io
-sudo chown $USER /var/log/docker.sock # May be required for access permissions
+Execute the following commands:
+
+"sudo apt-get install docker.io"
+
+"sudo chown $USER /var/log/docker.sock" # May be required for access permissions
 
 ### Create Terraform Directory:
 
