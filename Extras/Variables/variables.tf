@@ -1,4 +1,4 @@
- variable "filename" {
+variable "filename" {
         default = "/home/ubuntu/terraform-course/terraform-variables/devops-automated.txt"
 }
 
