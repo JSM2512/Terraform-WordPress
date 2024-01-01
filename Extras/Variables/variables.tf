@@ -1,26 +1,4 @@
-resource "local_file" "devops" {
-        filename = var.variable_list[0]
-        content = var.content_map["content1"]
-}
-
-resource "local_file" "devops-var" {
-        filename = var.variable_list[1]
-        content = var.content_map["content2"]
-}
-
-output "devops_op_trainer" {
-        value = var.devops_op_trainer
-}
-
-output "aws_ec2_instance_info" {
-        value = var.aws_ec2_obj
-}
-
-output "students" {
-        value = var.students
-}
-ubuntu@ip-172-31-28-37:~/terraform-course/terraform-variables$ cat variables.tf 
-variable "filename" {
+ variable "filename" {
         default = "/home/ubuntu/terraform-course/terraform-variables/devops-automated.txt"
 }
 
