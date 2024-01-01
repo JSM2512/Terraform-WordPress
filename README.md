@@ -14,7 +14,7 @@ Ensure to allow HTTP traffic for external access. (Consider using the free tier 
 Establish a connection to your EC2 Instance.
 ### 3. Install Terraform:
 
-Follow the installation guide here to install Terraform.
+Follow the installation guide here to install Terraform : https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 ### 4. Install Docker:
 
 Execute the following commands:
